@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>МПИ</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="stylesheet" href="./css/common.css">
+
+</head>
+
+<body class="page-body">
+  <header class="page-header">
+    <h1 class="visually-hidden">Сайт завода МеталлПластИнжиниринг</h1>
+    <div class="page-header__communication center">
+      <a class="logo">
+        <img src="img/logo.png" width="182" height="62" alt="Логотип завода МеталлПластИнжиниринг">
+        <span class="logo__caption">Завод МеталлПластИнжиниринг</span>
+      </a>
+      <span class="page-header__client-location">Ваш город: Екатеринбург</span>
+      <a class="page-header__mail" href="mailto:email@mail.ru">email@mail.ru</a>
+      <button class="page-header__recall-button" type="button">Заказать звонок</button>
+      <a class="phone" href="tel:+71231231212">+7 123 123 12 12</a>
+    </div>
+    <div class="main-nav center">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#about">О компании</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#services">Услуги</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/">Оборудование</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#feedback">Отзывы</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#faq">Вопрос-Ответ</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#projects">Реализованные проекты</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#news">Новости</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#articles">Статьи</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/">ГОСТы</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/#contacts">Контакты</a>
+        </li>
+      </ul>
+    </div>
+    <section class="about center" id="about">
+      <h2 class="visually-hidden">О компании</h2>
+      <div class="about__features">
+        <span class="about__header">Высокоточная металлообработка на современном оборудовании</span>
+        <ul class="about__list">
+          <li class="about__item">
+            <p class="about__feature">Более
+              <span class="about__amount">50
+                видов</span>
+              <span class="about__parameter">оборудования</span>
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__feature">До
+              <span class="about__amount">1 микрона</span>
+              <span class="about__parameter">точность обработки</span>
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__feature">Более
+              <span class="about__amount">15 лет</span><span class="about__parameter">стаж мастеров</span>
+            </p>
+          </li>
+          <li class="about__item">
+            <p class="about__feature">Более
+              <span class="about__amount">12 лет</span><span class="about__parameter">на рынке</span>
+            </p>
+          </li>
+        </ul>
+      </div>
+      <form class="about__cost-calculation" method="post" action="https://example.com/placeholder">
+        <span class="about__cost-calculation-header">Запросить<br>расчет стоимости</span>
+        <div class="about__cost-calculation-container">
+          <input class="about__cost-calculation-name" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="about__cost-calculation-phone" type="tel" name="phone" placeholder="Телефон" required>
+          <button class="button about__cost-calculation-button" type="submit">Отправить запрос</button>
+        </div>
+        <p class="about__cost-calculation-agreement">Отправляя данную форму, вы соглашаетесь с&nbsp;правилами
+          пользования
+          сайтом
+        </p>
+      </form>
+    </section>
+  </header>
+
+  <main class="page-main">
+    <section class="services center" id="services">
+      <h2 class="services__header">Наши услуги</h2>
+      <ul class="services__list">
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/metal-cutting.jpg" width="322" height="346"
+              alt="Изображение процесса резки металла">
+            <span class="services__capture">Резка металла</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/metal-bending.jpg" width="322" height="346"
+              alt="Изображение процесса гибки металла">
+            <span class="services__capture">Гибка металла</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/turning-work.jpg" width="322" height="346"
+              alt="Изображение выполнения токарных работ">
+            <span class="services__capture">Токарные работы</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/milling-operations.jpg" width="322" height="346"
+              alt="Изображение выполнения фрезерных работ">
+            <span class="services__capture">Фрезенрые работы</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/machining.jpg" width="322" height="346"
+              alt="Изображение процесса механической обработки металла">
+            <span class="services__capture">Меническая обработка</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/chemical-heat-treatment.jpg" width="322" height="346"
+              alt="Изображение процесса химико-термической обработки металла">
+            <span class="services__capture">Химико-термическая обработка</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/welding.jpg" width="322" height="346"
+              alt="Изображение процесса сварки металла">
+            <span class="services__capture">Сварка</span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a class="services__link" href="/">
+            <img class="services__picture" src="img/services/grinding.jpg" width="322" height="346"
+              alt="Изображение процесса шлифования металла">
+            <span class="services__capture">Шлифование</span>
+          </a>
+        </li>
+      </ul>
+      <div class="services__button">
+        <button class="button services__full-loading" type="button">
+          <span>Все услуги</span>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px">
+            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+              d="M8.010,7.149 L7.274,7.871 L7.122,7.722 L0.726,14.008 L-0.010,13.285 L6.386,6.999 L-0.010,0.712 L0.726,-0.011 L7.122,6.276 L7.274,6.126 L8.010,6.849 L7.858,6.999 L8.010,7.149 Z" />
+            <rect x="14" y="0" width="4" height="14" fill="none" />
+            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+              d="M8.010,7.149 L7.274,7.871 L7.122,7.722 L0.726,14.008 L-0.010,13.285 L6.386,6.999 L-0.010,0.712 L0.726,-0.011 L7.122,6.276 L7.274,6.126 L8.010,6.849 L7.858,6.999 L8.010,7.149 Z"
+              transform="translate(6, 0) scale(1, 1)" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <div class="page-main__specification-cost-calculation">
+      <section class="specification-cost-calculation center">
+        <h2 class="visually-hidden">Рассчет стоимости услуги по техническому заданию</h2>
+        <div class="specification-cost-calculation__columns">
+          <p class="specification-cost-calculation__proposal">У вас есть готовое техническое
+            задание?
+            <span class="specification-cost-calculation__proposal-small-font">Пришлите его нам на просчет
+              стоимости
+              и сроков!</span>
+          </p>
+          <button class="button specification-cost-calculation__button getting-price-button" type="button">Запросить
+            расчет
+            стоимости</button>
+        </div>
+      </section>
+    </div>
+    <section class="experience center">
+      <h2 class="experience__header">Имеем опыт работ<br><span class="experience__header-small-font">с предприятиями
+          различных отраслей промышленности</span></h2>
+      <ul class="experience__list">
+        <li class="experience__item">Промышленная техника</li>
+        <li class="experience__item">Приборостроение</li>
+        <li class="experience__item">Ж/Д транспорт</li>
+        <li class="experience__item">Робототехника</li>
+        <li class="experience__item">Оборонная промышленность</li>
+        <li class="experience__item">Мебельное производство</li>
+        <li class="experience__item">Химическая промышленность</li>
+        <li class="experience__item">Горнодобывающая отрасль</li>
+        <li class="experience__item">Строительство зданий</li>
+        <li class="experience__item">Электротехника</li>
+        <li class="experience__item">Медицина</li>
+        <li class="experience__item">Промышленное производство</li>
+        <li class="experience__item">Судостроение</li>
+        <li class="experience__item">Нефтегазовая сфера</li>
+        <li class="experience__item">Автомобилестроение</li>
+      </ul>
+    </section>
+    <div class="page-main__cost-calculation">
+      <section class="cost-calculation center">
+        <h2 class="cost-calculation__header">Получите расчет стоимости<br>для ваших задач</h2>
+        <form class="cost-calculation__form" method="post" action="https://example.com/placeholder"
+          id="form-calculation-1">
+          <div class="cost-calculation__columns">
+            <input class="cost-calculation__name" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="cost-calculation__phone" type="tel" name="phone" placeholder="Телефон" required>
+            <input class="cost-calculation__mail" type="email" name="mail" placeholder="E-mail" required>
+            <input class="cost-calculation__organization" type="text" name="organization_name"
+              placeholder="Название организации" required>
+            <div class="cost-calculation__attachment">
+              <label for="file-input-1" class="cost-calculation__attachment-label">Прикрепить файл
+                <input class="cost-calculation__attachment-input" type="file" id="file-input-1" name="specification"
+                  required>
+              </label>
+
+            </div>
+            <input class="cost-calculation__message" type="text" name="message" placeholder="Написать сообщение">
+          </div>
+          <div class="cost-calculation__button">
+            <button class="button cost-calculation__submit" type="submit">Отправить запрос</button>
+          </div>
+          <p class="cost-calculation__agreement">Отправляя данную форму, вы соглашаетесь<br>с правилами пользования
+            сайтом
+        </form>
+      </section>
+    </div>
+    <section class="projects center" id="projects">
+      <h2 class="projects__header">Реализованные проекты</h2>
+      <ul class="projects__list">
+        <li class="projects__item">
+          <a class="projects__link projects__link--project-1" href="/">
+            <div class="projects__capture">
+              <span class="projects__year">2023</span>
+              <span class="projects__name">Резка металла для производства</span>
+            </div>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--project-2" href="/">
+            <div class="projects__capture">
+              <span class="projects__year">2023</span>
+              <span class="projects__name">Обработка металла для производства оборудования</span>
+            </div>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--project-3" href="/">
+            <div class="projects__capture">
+              <span class="projects__year">2023</span>
+              <span class="projects__name">Резка металла для производства технического</span>
+            </div>
+          </a>
+        </li>
+        <li class="projects__item">
+          <a class="projects__link projects__link--project-4" href="/">
+            <div class="projects__capture">
+              <span class="projects__year">2022</span>
+              <span class="projects__name">Резка металла для производства оборудования</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="marketing center">
+      <h2 class="marketing__header">Завод «МеталлПластИнжиниринг» &mdash; <span
+          class="marketing__header-small-font">гарантия
+          точности и надежности!</span></h2>
+      <div class="marketing__columns">
+        <p class="marketing__description">Завод «МеталлПластИнжиниринг» сегодня можно с уверенностью назвать одним из
+          ведущих предприятий в сфере металлообработки. Наша компания занимается производством высокоточных фрезерных и
+          токарных деталей, по чертежам заказчика, из различных металлов, сплавов и полимеров. Производственные мощности
+          позволяют выполнять проекты любого уровня сложности в любых объемах.</p>
+        <div class="marketing__features">
+          <ul class="marketing__list">
+            <li class="marketing__item">до 1 микрона точность обработки</li>
+            <li class="marketing__item">Проверка ОТК<br>и ISO 9002</li>
+            <li class="marketing__item">Опыт реализации проектов высокой сложности</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+    <div class="page-main__delivery">
+      <section class="delivery center">
+        <h2 class="visually-hidden">Рассчет стоимости доставки</h2>
+        <div class="delivery__columns">
+          <p class="delivery__description">Собственный автопарк
+            <span class="delivery__description-small-font">и сотрудничество с ведущими транспортными<br>
+              компаниями позволяет обеспечить</span>
+            <span class="delivery__description-large-font">оперативную отгрузку и доставку по РФ и СНГ</span>
+          </p>
+          <a class="button delivery__button" href="/">Рассчитать стоимость доставки</a>
+        </div>
+      </section>
+    </div>
+    <div class="page-main__feedback">
+      <section class="feedback center" id="feedback">
+        <h2 class="feedback__header">Отзывы наших клиентов</h2>
+        <ul class="feedback__list">
+          <li class="feedback__item">
+            <span class="feedback__author">Александр</span>
+            <p class="feedback__text">Завод «МеталлПластИнжиниринг» сегодня можно с уверенностью назвать одним из
+              ведущих предприятий в сфере металлообработки. Наша компания занимается производством высокоточных
+              фрезерных и токарных деталей, по чертежам заказчика, из различных металлов, сплавов и полимеров.
+              Производственные мощности позволяют выполнять...
+            </p>
+            <button class="feedback__loading-text" type="button">Читать полностью</button>
+          </li>
+          <li class="feedback__item">
+            <span class="feedback__author">Евгений</span>
+            <p class="feedback__text">Завод «МеталлПластИнжиниринг» сегодня можно с уверенностью назвать одним из
+              ведущих предприятий в сфере металлообработки. Наша компания занимается производством высокоточных
+              фрезерных и токарных деталей, по чертежам заказчика, из различных металлов, сплавов и полимеров.
+              Производственные мощности позволяют выполнять...</p>
+            <button class="feedback__loading-text" type="button">Читать полностью</button>
+          </li>
+        </ul>
+        <div class="feedback__button">
+          <button class="button feedback__loading-comments" type="button">
+            <span>Все отзывы</span>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px"
+              height="14px">
+              <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                d="M8.010,7.149 L7.274,7.871 L7.122,7.722 L0.726,14.008 L-0.010,13.285 L6.386,6.999 L-0.010,0.712 L0.726,-0.011 L7.122,6.276 L7.274,6.126 L8.010,6.849 L7.858,6.999 L8.010,7.149 Z" />
+              <rect x="14" y="0" width="4" height="14" fill="none" />
+              <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                d="M8.010,7.149 L7.274,7.871 L7.122,7.722 L0.726,14.008 L-0.010,13.285 L6.386,6.999 L-0.010,0.712 L0.726,-0.011 L7.122,6.276 L7.274,6.126 L8.010,6.849 L7.858,6.999 L8.010,7.149 Z"
+                transform="translate(6, 0) scale(1, 1)" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+    <section class="articles center" id="articles">
+      <h2 class="visually-hidden">Статьи на тему металлообработки</h2>
+      <span class="articles__header">Полезная информация</span>
+      <ul class="articles__list">
+        <li class="articles__item">
+          <a class="articles__link articles__link--article-1" href="/">
+            <p class="articles__caption">Пуантилизм, зародившийся в музыкальных микроформах</p>
+          </a>
+        </li>
+        <li class="articles__item">
+          <a class="articles__link articles__link--article-2" href="/">
+            <p class="articles__caption">Наша компания занимается производством высокоточных фрезерных и токарных
+              деталей</p>
+          </a>
+        </li>
+        <li class="articles__item">
+          <a class="articles__link articles__link--article-3" href="/">
+            <p class="articles__caption">Глиссандирующая ритмоформула, согласно традиционным представлениям,
+              свободна</p>
+          </a>
+        </li>
+        <li class="articles__item">
+          <a class="articles__link articles__link--article-4" href="/">
+            <p class="articles__caption">В связи с этим нужно подчеркнуть, что крещендирующее хождение синхронно
+              имитирует лирический сет</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="faq center" id="faq">
+      <h2 class="faq__header">Частые вопросы</h2>
+      <ul class="faq__list">
+        <li class="faq__item">
+          <div class="faq__columns">
+            <p class="faq__question">В связи с этим нужно подчеркнуть, что струна изящно начинает фьюжн, и если в одних
+              голосах или пластах?</p>
+            <button class="faq__button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+                height="11px">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                  d="M15.061,3.059 L8.061,10.060 L8.000,9.999 L7.939,10.060 L0.939,3.059 L3.061,0.938 L8.000,5.878 L12.939,0.938 L15.061,3.059 Z" />
+              </svg>
+            </button>
+          </div>
+          <p class="faq__answer hidden">Ответ на вопрос</p>
+        </li>
+        <li class="faq__item">
+          <div class="faq__columns">
+            <p class="faq__question">В связи с этим нужно подчеркнуть, что струна изящно начинает фьюжн, и если в одних
+              голосах?</p>
+            <button class="faq__button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+                height="11px">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                  d="M15.061,3.059 L8.061,10.060 L8.000,9.999 L7.939,10.060 L0.939,3.059 L3.061,0.938 L8.000,5.878 L12.939,0.938 L15.061,3.059 Z" />
+              </svg>
+            </button>
+          </div>
+          <p class="faq__answer hidden">Ответ на вопрос</p>
+        </li>
+        <li class="faq__item">
+          <div class="faq__columns">
+            <p class="faq__question">Плотностная компонентная форма вызывает пласт?</p>
+            <button class="faq__button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+                height="11px">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                  d="M15.061,3.059 L8.061,10.060 L8.000,9.999 L7.939,10.060 L0.939,3.059 L3.061,0.938 L8.000,5.878 L12.939,0.938 L15.061,3.059 Z" />
+              </svg>
+            </button>
+          </div>
+          <p class="faq__answer hidden">Ответ на вопрос</p>
+        </li>
+        <li class="faq__item">
+          <div class="faq__columns">
+            <p class="faq__question">Пуантилизм, зародившийся в музыкальных микроформах начала ХХ столетия?</p>
+            <button class="faq__button" type="button">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px"
+                height="11px">
+                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                  d="M15.061,3.059 L8.061,10.060 L8.000,9.999 L7.939,10.060 L0.939,3.059 L3.061,0.938 L8.000,5.878 L12.939,0.938 L15.061,3.059 Z" />
+              </svg>
+            </button>
+          </div>
+          <p class="faq__answer hidden">Ответ на вопрос</p>
+        </li>
+      </ul>
+    </section>
+    <div class="page-main__cost-calculation">
+      <section class="cost-calculation center">
+        <h2 class="cost-calculation__header">Получите расчет стоимости<br>для ваших задач</h2>
+        <form class="cost-calculation__form" method="post" action="https://example.com/placeholder"
+          id="form-calculation-2">
+          <div class="cost-calculation__columns">
+            <input class="cost-calculation__name" type="text" name="name" placeholder="Ваше имя" required>
+            <input class="cost-calculation__phone" type="tel" name="phone" placeholder="Телефон" required>
+            <input class="cost-calculation__mail" type="email" name="mail" placeholder="E-mail" required>
+            <input class="cost-calculation__organization" type="text" name="organization_name"
+              placeholder="Название организации" required>
+            <div class="cost-calculation__attachment">
+              <label for="file-input-2" class="cost-calculation__attachment-label">Прикрепить файл
+                <input class="cost-calculation__attachment-input" type="file" id="file-input-2" name="specification"
+                  required>
+              </label>
+
+            </div>
+            <input class="cost-calculation__message" type="text" name="message" placeholder="Написать сообщение">
+          </div>
+          <div class="cost-calculation__button">
+            <button class="button cost-calculation__submit" type="submit">Отправить запрос</button>
+          </div>
+          <p class="cost-calculation__agreement">Отправляя данную форму, вы соглашаетесь<br>с правилами пользования
+            сайтом
+        </form>
+      </section>
+    </div>
+    <section class="news center" id="news">
+      <h2 class="news__header">Новости компании</h2>
+      <ul class="news__list">
+        <li class="news__item">
+          <span class="news__date">20 мая 2023</span>
+          <a class="news__text" href="/">Пуантилизм, зародившийся в музыкальных микроформах. В связи с этим
+            нужно
+            подчеркнуть, что крещендирующее хождение</a>
+        </li>
+        <li class="news__item">
+          <span class="news__date">18 апреля 2023</span>
+          <a class="news__text" href="/">Наша компания занимается производством высокоточных
+            фрезерных и
+            токарных
+            деталей</a>
+        </li>
+        <li class="news__item">
+          <span class="news__date">9 апреля 2023</span>
+          <a class="news__text" href="/">Глиссандирующая ритмоформула, согласно традиционным
+            представлениям,
+            свободна</a>
+        </li>
+        <li class="news__item">
+          <span class="news__date">25 марта 2023</span>
+          <a class="news__text" href="/">В связи с этим нужно подчеркнуть, что крещендирующее
+            хождение
+            синхронно
+            имитирует</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__columns center">
+      <div class="page-footer__services-column-1">
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Резка металла</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Гибка металла</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Токарные работы</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Фрезерные работы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__services-column-2">
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Химико-термическая обработка</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Сварка</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Фрезерование</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Производство деталей</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__about-column-1">
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/#about">О компании</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">Оборудование</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/#feedback">Отзывы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__about-column-2">
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/#projects">Реализованные проекты</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/#articles">Статьи</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/">ГОСТы</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="/#contacts">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__contacts" id="contacts">
+        <ul class="page-footer__list">
+          <li class="page-footer__item">
+            <a class="phone page-footer__link" href="tel:+71231231212">+7 123 123 12 12</a>
+          </li>
+          <li class="page-footer__item">
+            <a class="page-footer__link" href="mailto:email@mail.ru">E-mail: e-mail@mail.ru</a>
+          </li>
+          <li class="page-footer__item">
+            <p class="page-footer__address">Адрес: 620075,
+              Россия, г.Екатеринбург, ул.Улица, 00</p>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__cost-calculation">
+        <button class="button page-footer__button getting-price-button" type="button">Расчет стоимости</button>
+        <a class="page-footer__rules" href="/">Правила пользования сайтом</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/common.js" defer></script>
+
+</body>
+
+</html>
