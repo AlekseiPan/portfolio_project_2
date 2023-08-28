@@ -120,8 +120,8 @@ img {
   line-height: 24px;
   box-sizing: border-box;
   min-height: 100%;
-  margin: 0;
-  min-width: 1920px;
+  margin: 0 auto;
+  width: 1920px;
 }
 
 /* page-header */
